@@ -1,0 +1,85 @@
+.display-5 {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+.col-lg-6{
+    font-family: "Playwrite AU QLD", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 20px;
+}
+.profile{
+    display: flex;
+    justify-content: center;
+}
+img{
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+*{
+    text-align: center;
+}
+.intro{
+    width: 30%;
+    margin: auto;
+}
+.up{
+    color: aliceblue;
+    margin: 10px;
+}
+#parant{
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-rows:200px 100px; 
+    gap: 10px;
+}
+.logo{
+    display: grid;
+    grid-template-rows: 200px;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px;
+    display: flex;
+    justify-content: center;
+}
+.c1{
+    margin-top:10px;
+    margin-right: -10px;
+    align-items: center;
+}
+.c2{
+    margin-left: -5px;
+    align-items: center;
+}
+.pi{
+    margin-top: 10px;
+    align-items: center;
+}
+.htm{
+    margin-top: 10px;
+    margin-left: 20px;
+    align-items: center;
+}
+.cs{
+    margin-top: 8px;
+    margin-left: 20px;
+    align-items: center;
+}
+.js{
+    margin-top: 8px;
+    margin-left: 20px;
+    align-items: center;
+}
+.btn{
+    border-color: black;
+    color: black;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color:rgb(244, 244, 244);
+}
+.gradient-background {
+    background: linear-gradient(300deg, #ebfa0d, #22ff0e, #ff0b0b);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
